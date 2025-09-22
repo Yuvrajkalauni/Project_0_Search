@@ -3,24 +3,55 @@
 
 <head>
     <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div>
         <ul class="navbar">
-            <li class="navbar-google"><a href="index.html"><img src="image\Google_logo.svg.webp" alt="google-icon" width="74" height="24"></a></li>
+            <li class="navbar-google"><a href="index.html"><img src="image\Google_logo.svg.webp" alt="google-icon"
+                        width="74" height="24"></a></li>
             <li class="navbar-image"><a href="image.html">Image</a></li>
-            <li class="navbar-advance"><a href="advance.html">Advance search</a></li>
         </ul>
     </div>
-   
-    <form action="">
-        <input type="text" name="q" class="search-box" >
-        <div class="google-icon">
-            <input type="submit" value="Google Search" class="button">
-        </div>
-    </form>
+    <div class="appbar">
+        <span class="span1">Advanced Search</span>
+    </div>
+    <div class="line"></div>
+
+    <div class="adstyl">
+        <span class="span2">Find Pages with... </span>
+
+        <form action="https://google.com/search">
+            <div class="form_group_row">
+                <table class="table_in">
+                    <tr>
+                        <td><label class="label_in">all those words:</label></td>
+                        <td><input type="text" name="as_q" autofocus="autofocus" class="advance_txt_in"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="label_in">this exact word or phrase:</label></td>
+                        <td><input type="text" name="as_epq" autofocus="autofocus" class="advance_txt_in"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="label_in">any of there words:</label></td>
+                        <td><input type="text" name="as_oq" autofocus="autofocus" class="advance_txt_in"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="label_in">non of these word:</label></td>
+                        <td><input type="text" name="as_eq" autofocus="autofocus" class="advance_txt_in"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit" class="btn btn-primary" value="Advanced Seacch">Advanced Search</button></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>

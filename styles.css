@@ -1,22 +1,32 @@
-.navbar{
-    list-style-type: none ;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+body {
+  font-family: Arial, sans-serif;
 }
-.navbar-google{
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.navbar-google {
   position: absolute;
   left: 0;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 10px;
+}
 
+.navbar-image {
+  margin: 10px;
+  position:relative;
+  right: 10px;
 }
-.navbar-image{
-    margin: 10px;
+
+.navbar-advance {
+  margin: 10px;
 }
-.navbar-advance{
-    margin: 10px;
-}
+
 a:link {
   color: black;
   background-color: transparent;
@@ -41,42 +51,100 @@ a:active {
   text-decoration: underline;
 }
 
-.google-icon{
-    display: flex;
-    justify-content: center;
+.google-icon {
+  display: flex;
+  justify-content: center;
 }
 
-.search-box{
-    display: flex;
-    z-index: 3;
-    position: relative;
-    min-height: 50px;
-    background: #fff;
-    border: 1px solid #dadce0;
-    box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
-    border-radius: 26px;
-    margin: auto;
-    width: 746px;
-    height: 48;
-    margin-top: 20px;
-    margin-left:;
+.search-box {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  min-height: 50px;
+  background: #fff;
+  border: 1px solid #dadce0;
+  box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
+  border-radius: 26px;
+  margin: auto;
+  width: 746px;
+  height: 48;
+  margin-top: 20px;
+
 }
-.button{
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    color: #3c4043;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-    border-radius: 8px;
-    font-family: Google Sans, Arial, sans-serif;
-    font-optical-sizing: none;
-    font-size: 14px;
-    font-weight: 400;
-    align-content: center;
+
+.button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px;
+  font-family: Google Sans, Arial, sans-serif;
+  font-optical-sizing: none;
+  font-size: 14px;
+  font-weight: 400;
+  align-content: center;
+}
+
+.appbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.span1 {
+  margin-left: 10px;
+}
+
+.line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.adstyl {
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+.span2 {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #333;
+
+}
+
+.form_group_row {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+
+}
+
+.table_in{
+  margin-left: 10px;
+}
+
+.label_in{
+  margin-top: 15px;
+
+}
+
+.advance_txt_in{
+  margin-top: 15px;
+  position: relative;
+  left: 50px;
+  width: 350px;
+}
+
+.btn {
+  margin-top: 15px;
+  position: relative;
+  left: 250px;
 }
