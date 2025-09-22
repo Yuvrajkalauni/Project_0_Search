@@ -1,0 +1,123 @@
+$font-stack: Arial, sans-serif
+$primary-color: black
+$link-hover: underline
+$border-color: #dadce0
+$button-bg: #f8f9fa
+$button-text: #3c4043
+$google-red: #d93025
+
+body
+  font-family: $font-stack
+
+a
+  color: $primary-color
+  background-color: transparent
+  text-decoration: none
+
+  &:visited
+    color: $primary-color
+
+  &:hover,
+  &:active
+    text-decoration: $link-hover
+
+.navbar
+  list-style-type: none
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+
+  &-google
+    position: absolute
+    left: 0
+    margin-left: 25px
+    margin-top: 10px
+
+  &-image
+    margin: 10px
+    position: relative
+    right: 10px
+
+  &-advance
+    margin: 10px
+
+.google-icon
+  display: flex
+  justify-content: center
+
+.search-box
+  display: flex
+  z-index: 3
+  position: relative
+  min-height: 50px
+  background: #fff
+  border: 1px solid $border-color
+  box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08)
+  border-radius: 26px
+  margin-top: 20px
+  margin-left: auto
+  margin-right: auto
+  width: 746px
+  height: 48px
+
+.button
+  background-color: $button-bg
+  border: 1px solid $button-bg
+  color: $button-text
+  margin: 11px 4px
+  padding: 0 16px
+  line-height: 27px
+  height: 36px
+  min-width: 54px
+  text-align: center
+  cursor: pointer
+  user-select: none
+  border-radius: 8px
+  font-family: "Google Sans", Arial, sans-serif
+  font-size: 14px
+  font-weight: 400
+  align-content: center
+
+.appbar
+  color: $google-red
+  font-size: 20px
+  margin: 25px 35px
+
+.span1
+  margin-left: 10px
+
+.line
+  border-bottom: 1px solid #ebebeb
+
+.adstyl
+  margin-top: 40px
+  margin-left: 35px
+
+.span2
+  font-size: 16px
+  margin-left: 10px
+  color: #333
+
+.form_group_row
+  list-style-type: none
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  position: absolute
+
+.table_in
+  margin-left: 10px
+
+.label_in
+  margin-top: 15px
+
+.advance_txt_in
+  margin-top: 15px
+  position: relative
+  left: 50px
+  width: 350px
+
+.btn
+  margin-top: 15px
+  position: relative
+  left: 250px

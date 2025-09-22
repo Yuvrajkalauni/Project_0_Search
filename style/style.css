@@ -1,9 +1,17 @@
-$b_color : black
-
-
-
 body {
   font-family: Arial, sans-serif;
+}
+
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover, a:active {
+  text-decoration: underline;
 }
 
 .navbar {
@@ -12,47 +20,19 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
-
-
 .navbar-google {
   position: absolute;
   left: 0;
   margin-left: 25px;
   margin-top: 10px;
 }
-
 .navbar-image {
   margin: 10px;
-  position:relative;
+  position: relative;
   right: 10px;
 }
-
 .navbar-advance {
   margin: 10px;
-}
-
-a:link {
-  color: $b_color;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: $b_color;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $b_color;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: $b_color;
-  background-color: transparent;
-  text-decoration: underline;
 }
 
 .google-icon {
@@ -69,11 +49,11 @@ a:active {
   border: 1px solid #dadce0;
   box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
   border-radius: 26px;
-  margin: auto;
-  width: 746px;
-  height: 48;
   margin-top: 20px;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 746px;
+  height: 48px;
 }
 
 .button {
@@ -89,8 +69,7 @@ a:active {
   cursor: pointer;
   user-select: none;
   border-radius: 8px;
-  font-family: Google Sans, Arial, sans-serif;
-  font-optical-sizing: none;
+  font-family: "Google Sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   align-content: center;
@@ -119,7 +98,6 @@ a:active {
   font-size: 16px;
   margin-left: 10px;
   color: #333;
-
 }
 
 .form_group_row {
@@ -128,19 +106,17 @@ a:active {
   flex-direction: row;
   justify-content: flex-end;
   position: absolute;
-
 }
 
-.table_in{
+.table_in {
   margin-left: 10px;
 }
 
-.label_in{
+.label_in {
   margin-top: 15px;
-
 }
 
-.advance_txt_in{
+.advance_txt_in {
   margin-top: 15px;
   position: relative;
   left: 50px;
@@ -152,3 +128,5 @@ a:active {
   position: relative;
   left: 250px;
 }
+
+/*# sourceMappingURL=style.css.map */
